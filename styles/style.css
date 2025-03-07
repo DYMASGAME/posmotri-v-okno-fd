@@ -58,20 +58,18 @@ ol {
   grid-template-columns: 711px 399px;
   grid-template-areas: "results content__details";
   gap: 30px;
-  max-height: 534px;
   width: 1140px;
   align-items: end;
 }
 
 .result {
-  grid-area: "results";
-  height: 534px;
+  grid-area: results;
 }
 
 .result__video-container {
   height: 388px;
   width: 711px;
-  margin-top: 78px;
+  margin-bottom: 13px;
   box-sizing: border-box;
   position: relative;
 }
@@ -87,9 +85,6 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
-  height: 54px;
-  margin-bottom: 0;
-  margin-top: 12px;
 }
 
 .search-form__fieldset {
@@ -116,7 +111,7 @@ ol {
 .search-form__textfield {
   background-color: transparent;
   width: 225px;
-  height: 27px;
+  height: 24px;
   border: none;
   font-size: 18px;
   font-family: 'Fira Sans Condensed', 'sans serif';
@@ -159,16 +154,14 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 22px;
-  margin-top: 6px;
-  padding-bottom: 2px;
+  margin-top: 4px;
+  padding-bottom: 0px;
 }
 
 .search-form__label {
   display: flex;
   gap: 5px;
   align-items: center;
-
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -179,6 +172,8 @@ ol {
   margin-right: 2px;
   min-inline-size: 14px;
   min-block-size: 14px;
+  width: 15px;
+  height: 15px;
   background-color: #fff;
 }
 
@@ -196,7 +191,7 @@ ol {
   border: 1px solid #fff;
 }
 
-.search-form__label:hover {
+.search-form__checkbox-list > .search-form__label:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -234,20 +229,16 @@ button:focus-visible {
 }
 
 .content__details {
-  grid-area: "content__details";
-  max-height: 534px;
-
+  grid-area: content__details;
 }
 
 .title {
-  padding-bottom: 26px;
+  padding-bottom: 15px;
   font-family: 'Oswald', 'sans-serif';
   text-transform: uppercase;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
-  position: absolute;
-  top: 380px;
 }
 
 .content__accent {
@@ -256,14 +247,15 @@ button:focus-visible {
 
 .content__list-container {
   overflow-y: scroll;
-  max-height: 298px;
   position: relative;
+  width: 399px;
+  height: 298px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 25px;
   padding-bottom: 30px;
 }
 
@@ -321,7 +313,6 @@ button:focus-visible {
 
 .content__video-card {
   display: grid;
-  grid-template-rows: 103px;
   grid-template-columns: 196px 194px;
   align-content: start;
   align-items: start;
@@ -333,7 +324,7 @@ button:focus-visible {
   width: 194px;
   object-fit: cover;
   object-position: center;
-  height: 103px;
+  height: 98px;
 }
 
 .content__video-card-description-container {
@@ -346,7 +337,7 @@ button:focus-visible {
   font-size: 18px;
   line-height: 16.2px;
   line-clamp: 1;
-  height: 17px;
+  padding-top: 8px;
 }
 
 
