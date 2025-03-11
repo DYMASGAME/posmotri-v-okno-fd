@@ -69,7 +69,7 @@ ol {
 .result__video-container {
   height: 388px;
   width: 711px;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
   box-sizing: border-box;
   position: relative;
 }
@@ -85,6 +85,7 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
+  margin-bottom: 7px;
 }
 
 .search-form__fieldset {
@@ -96,6 +97,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
+  padding-bottom: 5px;
 }
 
 .visually-hidden {
@@ -126,7 +128,6 @@ ol {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding-top: 5px;
   letter-spacing: 0;
 }
 
@@ -154,7 +155,7 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4px;
+  margin-top: 2px;
   padding-bottom: 0px;
 }
 
@@ -207,7 +208,7 @@ ol {
   font-size: 18px;
   line-height: 21.6px;
   text-align: center;
-  margin-bottom: -2px;
+  margin-bottom: -4px;
 }
 
 button:focus {
@@ -233,12 +234,13 @@ button:focus-visible {
 }
 
 .title {
-  padding-bottom: 15px;
+  padding-bottom: 26px;
   font-family: 'Oswald', 'sans-serif';
   text-transform: uppercase;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
+  letter-spacing: 0;
 }
 
 .content__accent {
@@ -250,12 +252,13 @@ button:focus-visible {
   position: relative;
   width: 399px;
   height: 298px;
+  top: -9px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 23px;
   padding-bottom: 30px;
 }
 
@@ -324,7 +327,7 @@ button:focus-visible {
   width: 194px;
   object-fit: cover;
   object-position: center;
-  height: 98px;
+  height: 103px;
 }
 
 .content__video-card-description-container {
@@ -338,6 +341,7 @@ button:focus-visible {
   line-height: 16.2px;
   line-clamp: 1;
   padding-top: 8px;
+
 }
 
 
